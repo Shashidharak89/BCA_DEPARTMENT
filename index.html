@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA Department Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body background="./images/photo1.jpg">
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <!-- <div class="navbar-toggle" onclick="toggleMenu()">  
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div> -->
+        <div class="navbar-links" id="navbarLinks">  <!-- Links are hidden initially on small screens -->
+            <a href="#" onclick="toggleSection('home')">Home</a>
+            <a href="#" onclick="toggleSection('about')">About Us</a>
+            <!-- <a href="#" onclick="toggleSection('courses')">Courses</a> -->
+            <a href="#" onclick="toggleSection('faculty')">Faculty</a>
+            <a href="#" onclick="toggleSection('events')">IT-Forum</a>
+            <!-- <a href="#" onclick="toggleSection('gallery')">Gallery</a> -->
+            <a href="#" onclick="toggleSection('contact')">Contact Us</a>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <div class="content">
+
+        <!-- Home section  -->
+        <div id="home">
+            <h2>Home</h2>
+            <p>Welcome to the BCA Department Website!</p>
+        </div>
+
+        <!-- about section  -->
+        <div id="about" class="hidden">
+            <h2>About Us</h2>
+            <p>Information about the BCA Department...</p>
+        </div>
+
+
+        <div id="courses" class="hidden">
+            <h2>Courses</h2>
+            <p>Details about the courses offered...</p>
+        </div>
+
+        <div id="faculty" class="hidden">
+            <h2>Faculty</h2>
+            <p>Meet our esteemed faculty members...</p>
+        </div>
+
+        <div id="events" class="hidden">
+            <h2>Events</h2>
+            <p>Upcoming and past events in the department...</p>
+        </div>
+
+        <div id="gallery" class="hidden">
+            <h2>Gallery</h2>
+            <p>Photos and memories from our department...</p>
+        </div>
+
+        <div id="contact" class="hidden">
+            <h2>Contact Us</h2>
+            <p>How to get in touch...</p>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© BCA Department - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

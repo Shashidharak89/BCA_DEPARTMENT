@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(4, 5, 73,0.44);
+    padding: 10px 0;
+    position: fixed; /* Make navbar sticky */
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure navbar stays on top */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+
+.navbar a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+}
+
+.content {
+    padding: 60px 20px; /* Space for fixed navbar */
+    flex: 1; /* Takes up remaining space */
+}
+
+.hidden {
+    display: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}

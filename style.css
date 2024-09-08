@@ -1,7 +1,9 @@
+
 *{
     margin: 0;
     padding: 0;
 }
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -9,6 +11,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+
 
 .content {
     padding: 60px 20px; /* Space for fixed navbar */
@@ -26,90 +30,38 @@ footer {
     padding: 10px;
     width: 100%;
     position: relative;
-}
 
-
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: rgb(4, 5, 73,0.44);
-    padding: 10px 0;
-    position: fixed; /* Make navbar sticky */
-    top: 0;
-    width: 100%;
-    z-index: 1000; /* Ensure navbar stays on top */
-}
-
-.navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 14px 20px;
-}
-
-.navbar a:hover {
-    background-color: #575757;
-    border-radius: 4px;
-}
-
-.content {
-    padding: 60px 20px; /* Space for fixed navbar */
-    flex: 1; /* Takes up remaining space */
-}
-
-.hidden {
-    display: none;
-}
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    width: 100%;
-    position: relative;
 
 }
 nav{
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   }
-  nav ul{
+nav ul{
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-  }
-  nav li{
+}
+nav li{
     height: 50px;
-  }
-  nav a{
+}
+nav a{
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
     display: flex;
     align-items: center;
     color: black;
-  }
-  nav a:hover{
+}
+nav a:hover{
     background-color: #f0f0f0;
-  }
-  nav li:first-child{
+}
+nav li:first-child{
     margin-right: auto;
-  }
-  .sidebar{
+}
+.sidebar{
     position: fixed;
     top: 0; 
     right: 0;
@@ -123,26 +75,26 @@ nav{
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-  }
-  .sidebar li{
+}
+.sidebar li{
     width: 100%;
-  }
-  .sidebar a{
+}
+.sidebar a{
     width: 100%;
-  }
-  .menu-button{
+}
+.menu-button{
+    display: none;
+}
+@media(max-width: 800px){
+  .hideOnMobile{
     display: none;
   }
-  @media(max-width: 800px){
-    .hideOnMobile{
-      display: none;
-    }
-    .menu-button{
+  .menu-button{
       display: block;
-    }
   }
-  @media(max-width: 400px){
-    .sidebar{
-      width: 100%;
-    }
+}
+@media(max-width: 400px){
+  .sidebar{
+    width: 100%;
   }
+}

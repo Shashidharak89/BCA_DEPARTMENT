@@ -2,28 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BCA Department Website</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body background="./images/photo1.jpg">
     <!-- Navigation Bar -->
-    <div class="navbar">
-        <!-- <div class="navbar-toggle" onclick="toggleMenu()">  
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-        </div> -->
-        <div class="navbar-links" id="navbarLinks">  <!-- Links are hidden initially on small screens -->
-            <a href="#" onclick="toggleSection('home')">Home</a>
-            <a href="#" onclick="toggleSection('about')">About Us</a>
-            <!-- <a href="#" onclick="toggleSection('courses')">Courses</a> -->
-            <a href="#" onclick="toggleSection('faculty')">Faculty</a>
-            <a href="#" onclick="toggleSection('events')">IT-Forum</a>
-            <!-- <a href="#" onclick="toggleSection('gallery')">Gallery</a> -->
-            <a href="#" onclick="toggleSection('contact')">Contact Us</a>
-        </div>
-    </div>
+    <nav>
+        <ul class="sidebar">
+          <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+          <li><a href="#" onclick="toggleSection('home')">Home</a></li>
+          <li><a href="#" onclick="toggleSection('about')">About us</a></li>
+          <li><a href="#" onclick="toggleSection('faculty')">Faculty</a></li>
+          <li><a href="#" onclick="toggleSection('events')">IT-Forum</a></li>
+          <li><a href="#" onclick="toggleSection('contact')">Contact Us</a></li>
+        </ul>
+        <ul>
+          <li><a href="#">BCA</a></li>
+          <li class="hideOnMobile"><a href="#" onclick="toggleSection('home')">Home</a></li>
+          <li class="hideOnMobile"><a href="#" onclick="toggleSection('about')">About Us</a></li>
+          <li class="hideOnMobile"><a href="#" onclick="toggleSection('faculty')">Faculty</a></li>
+          <li class="hideOnMobile"><a href="#" onclick="toggleSection('events')">IT-Forum</a></li>
+          <li class="hideOnMobile"><a href="#" onclick="toggleSection('contact')">Contact Us</a></li>
+          <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    
 
     <!-- Content Section -->
     <div class="content">

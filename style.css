@@ -14,10 +14,7 @@ body {
 
 
 
-.content {
-    padding: 60px 20px; /* Space for fixed navbar */
-    /* flex: 1; Takes up remaining space */
-}
+
 
 .hidden {
     display: none;

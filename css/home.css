@@ -22,7 +22,7 @@
 .slider figure img {
     float: left;
     width: 20%;
-    height: 500px;
+
 }
 
 @keyframes slider {

@@ -1,0 +1,63 @@
+#bcadep{
+    text-align: center;
+}
+#slogan{
+    text-align: center;
+}
+.heading{
+    width: 100%;
+    background-color: rgb(135, 181, 86);
+}
+.it-h1 {
+    font-size: 3rem;
+}
+
+section {
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.it-h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.it-p {
+    font-size: 1.2rem;
+}
+
+.achievement-card, .batch-card, .team-member {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    opacity: 0; /* Hidden initially for fade-in effect */
+}
+
+.team-gallery {
+    display: flex;
+    gap: 20px;
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Animation classes */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

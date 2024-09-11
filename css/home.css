@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: black;
+    position: relative;
 }
 
 .slider {
@@ -10,18 +12,19 @@
     z-index: 1;
 
 }
-
 .slider figure {
     position: relative;
     width: 500%;
     height: 200%;
     left: 0;
     animation: 20s slider infinite;
+    position: absolute;
 }
 
 .slider figure img {
     float: left;
     width: 20%;
+    position: absolute;
 
 }
 
@@ -97,4 +100,9 @@
 
 .principal-note {
     color: white;
+}
+.top{
+    background-color: black;
+    position: absolute;
+    width: 100%;
 }

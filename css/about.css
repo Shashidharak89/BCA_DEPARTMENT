@@ -1,75 +1,63 @@
-
-.about-section {
-    background-color: #fff;
-    padding: 50px;
-    text-align: center;
-    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
-    animation: fadeIn 2s ease-in-out;
-    max-width: 1200px;
-    margin: 50px auto;
-    border-radius: 10px;
+* {
+    box-sizing: border-box;
 }
 
-.abt-h1 {
-    font-size: 3rem;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.intro,.mission,.vision {
-    font-size: 1.2rem;
-    color: #555;
-    margin: 20px 0;
-    line-height: 1.6;
-}
-
-.mission, .vision {
-    font-style: italic;
-    color: #444;
-}
-
-.highlights {
-    margin-top: 40px;
-}
-
-.abt-h2 {
-    font-size: 2.5rem;
-    color: #222;
-    margin-bottom: 20px;
-}
-
-.abt-ul {
-    list-style: none;
-    padding: 0;
-}
-
-.abt-li  {
-    font-size: 1.2rem;
-    color: #5e57df;
-    background-color: #eef;
-    padding: 15px;
-    margin: 10px 0;
+.container {
     border-radius: 5px;
-    animation: slideIn 0.5s ease-in-out;
+    background-color: #f2f2f2;
+    padding: 10px;
 }
 
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+.contact-info {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
 }
 
-@keyframes slideIn {
-    from {
-        transform: translateY(50px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
+.contact-form {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
     }
 }

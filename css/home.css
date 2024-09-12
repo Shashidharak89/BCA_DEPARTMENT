@@ -1,0 +1,77 @@
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    position: relative;
+    width: 1300%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite ease-in-out;
+}
+.slider img{
+    width: 7.7%;
+    float: left;
+}
+@keyframes slider{
+0%{
+    left: 0;
+}
+7.7%{
+    left:0;
+}
+12.7%{
+    left: -100%;
+}
+17.7%{
+    left: -100%;
+}
+22.7%{
+    left: -200%;
+}
+27.7%{
+    left: -200%;
+}
+32.7%{
+    left: -300%;
+}
+37.7%{
+    left: -300%;
+}
+42.7%{
+    left: -400%;
+}
+47.7%{
+    left:-400%;
+}
+52.7%{
+    left: -500%;
+}
+57.7%{
+    left:-500%;
+}
+62.7%{
+    left:-600%;
+}
+67.7%{
+    left:-600%;
+}
+72.7%{
+    left: -700%;
+}
+77.7%{
+    left: -700%;
+}
+82.7%{
+    left: -800%;
+}
+87.7%{
+    left: -800%;
+}
+92.7%{
+    left: -900%;
+}
+97.7%{
+    left: -900%;
+}
+
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,326 +9,283 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/faculty.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="css/itforum.css">
     <link rel="stylesheet" href="css/about.css">
     <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
 </head>
+
 <body background="./images/photo1.jpg">
-    <!-- Navigation Bar --> 
+    <!-- Navigation Bar -->
     <nav class="side">
         <ul class="sidebar">
-          <li onclick=hideSidebar()><a href="#" class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
-          <li><a href="#" onclick="toggleSections('home')" class="sideitem">Home</a></li>
-          <li><a href="#" onclick="toggleSections('about')" class="sideitem">About us</a></li>
-          <li><a href="#" onclick="toggleSections('faculty')" class="sideitem">Faculty</a></li>
-          <li><a href="#" onclick="toggleSections('events')" class="sideitem">IT-Forum</a></li>
-          <li><a href="#" onclick="toggleSections('contact')" class="sideitem">Contact Us</a></li>
+            <li onclick=hideSidebar()><a href="#" class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="#" onclick="toggleSections('home')" class="sideitem">Home</a></li>
+            <li><a href="#" onclick="toggleSections('about')" class="sideitem">About us</a></li>
+            <li><a href="#" onclick="toggleSections('faculty')" class="sideitem">Faculty</a></li>
+            <li><a href="#" onclick="toggleSections('events')" class="sideitem">IT-Forum</a></li>
+            <li><a href="#" onclick="toggleSections('contact')" class="sideitem">Contact Us</a></li>
         </ul>
         <ul>
-          <li><a href="#">BCA</a></li>
-          <li class="hideOnMobile"><a href="#" onclick="toggleSection('home')">Home</a></li>
-          <li class="hideOnMobile"><a href="#" onclick="toggleSection('about')">About Us</a></li>
-          <li class="hideOnMobile"><a href="#" onclick="toggleSection('faculty')">Faculty</a></li>
-          <li class="hideOnMobile"><a href="#" onclick="toggleSection('events')">IT-Forum</a></li>
-          <li class="hideOnMobile"><a href="#" onclick="toggleSection('contact')">Contact Us</a></li>
-          <li class="menu-button" onclick=showSidebar()><a href="#" class="open-btn"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            <li><a href="#">BCA</a></li>
+            <li class="hideOnMobile"><a href="#" onclick="toggleSection('home')">Home</a></li>
+            <li class="hideOnMobile"><a href="#" onclick="toggleSection('about')">About Us</a></li>
+            <li class="hideOnMobile"><a href="#" onclick="toggleSection('faculty')">Faculty</a></li>
+            <li class="hideOnMobile"><a href="#" onclick="toggleSection('events')">IT-Forum</a></li>
+            <li class="hideOnMobile"><a href="#" onclick="toggleSection('contact')">Contact Us</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#" class="open-btn"><svg
+                        xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
         </ul>
     </nav>
-    
+
 
     <!-- Content Section -->
     <div class="content">
 
         <!-- Home section  -->
         <div id="home">
-            <!-- <div> -->
-                <div class="slidertop">
-                                       
-                    <div class="slider"><!--image slider-->
-                        <figure>
-                            <img src="images/IMG20230603110535.jpg" alt="">
-                            <img src="images/bgjpg.jpg" alt="">
-                            <img src="images/photo2.jpg" alt="">
-                            <img src="images/photo3.jpg" alt="">
-                            <img src="images/photo2.jpg" alt="">
-                        </figure>
-                    </div>
-                    <div class="top">
-
-                    </div>
-
-                </div>
-                <div class="principal-main">
-                    <div class="principal">
-                        <h3>From The Principal Desk</h3>
-                        <div class="principal-picandname"> <!--princcipal image and name-->
-                            <img src="./images/principal.jpg" alt="principal image">
-                            <h2>Prof.Alex Ivan Sequeira</h2>
-                        </div>
-                        <div class="principal-note"><!--principal note-->
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, deserunt dicta! Dolorum,
-                                officia unde! Sit, quaerat autem? Nobis ad dolorem voluptatibus ullam! Sequi cupiditate
-                                minima reiciendis, praesentium iusto, delectus voluptates repellendus id maiores fuga
-                                repudiandae unde sunt deleniti quia laborum dolor facilis quibusdam blanditiis voluptatibus
-                                numquam maxime omnis consequatur aspernatur! Reprehenderit, quae! Error recusandae
-                                temporibus ratione, dolore assumenda maxime porro. Odio dicta mollitia eos, officiis
-                                delectus ut ratione beatae ipsam autem vel? Dolorum a dignissimos quis eaque deleniti
-                                numquam soluta tempora voluptatem voluptatum iusto ab, distinctio unde eos, incidunt tenetur
-                                inventore id similique delectus provident voluptatibus in? Fuga consequuntur qui id aperiam
-                                inventore quo reiciendis enim error sapiente, cupiditate hic eos totam corrupti sunt ipsam
-                                fugiat alias excepturi eius possimus? Ipsa fugit aperiam explicabo commodi iure quidem atque
-                                molestias quo molestiae? Voluptatibus expedita dolor suscipit, voluptatem, ad qui ipsum
-                                consectetur aut dolores porro molestias mollitia. Reiciendis, iure exercitationem numquam
-                                quod veniam sequi nisi eaque impedit illum porro, amet necessitatibus maiores perferendis
-                                error, quisquam debitis nemo distinctio provident? Iure neque dolor eos dicta numquam,
-                                provident fugiat vitae. Iure, inventore ea quam facere aperiam beatae officia quos quod
-                                debitis obcaecati dignissimos porro eaque id repellat dicta, fuga eum fugiat tempora
-                                voluptate! Esse minus illum, explicabo reiciendis id rerum adipisci ut, cumque nulla non
-                                commodi? Provident eligendi consequatur maiores rem officiis id tenetur quia dolor atque
-                                similique inventore blanditiis dolorem maxime, sit optio quam. Iste assumenda officia
-                                explicabo optio sint odio possimus adipisci voluptatem. Cupiditate eius voluptatibus, dicta
-                                cum voluptate nihil quas id nisi temporibus dolores consequatur nesciunt molestiae, quam
-                                laborum rem a, eos magni. Earum, enim totam molestias, magni nobis recusandae, voluptates
-                                harum nesciunt molestiae repudiandae inventore? Cupiditate dolorum similique modi sequi.
-                                Assumenda eos qui voluptate ad consectetur unde? Unde cum quisquam illum reiciendis
-                                nesciunt? Mollitia voluptatibus quibusdam dolor odit enim dolores nemo veritatis laborum
-                                fuga, sint accusantium error omnis, asperiores officiis inventore fugiat reprehenderit nulla
-                                voluptate earum, praesentium delectus molestias doloremque explicabo! Consectetur quod
-                                dolore neque quas nihil saepe, incidunt sequi! Voluptatibus culpa quod officia quo. Iusto
-                                earum magni laborum sit, veniam corrupti ducimus maiores dolorum voluptatem hic, non at
-                                suscipit. Quisquam fuga reprehenderit eveniet enim eius qui corrupti totam, autem
-                                accusantium voluptate incidunt. Esse alias dolore ipsum ex quasi ab, mollitia sapiente?
-                                Aperiam suscipit consequuntur ex incidunt labore laborum magnam, magni sapiente minus
-                                assumenda necessitatibus voluptas voluptate perferendis maiores dolore modi fugit fuga
-                                consequatur, quibusdam aspernatur voluptatibus veritatis. Quam, cum.</p>
-                        </div>
-                    </div>
-                </div>
-            <!-- </div> -->
         </div>
+    </div>
 
-        <!-- about section  -->
-        <!-- about section  -->
-        <!-- about section  -->
-           
-        <div id="about" class="hidden">
-            <div class="about-section">
-                <h1 class="abt-h1">About Our BCA Department</h1>
-                <p class="intro">The BCA Department at Sacred Heart College, Madanthyar, is dedicated to nurturing young minds in the field of Computer Applications. Our curriculum is designed to provide students with a strong foundation in computer science, programming, and modern technologies. We aim to create problem-solvers, innovators, and future leaders in the IT industry.</p>
-                
-                <p class="mission">Our mission is to offer quality education and develop IT professionals with the skills and knowledge to excel in an ever-evolving digital world. We encourage creativity, critical thinking, and collaboration through hands-on learning and industry exposure.</p>
-                
-                <p class="vision">We envision becoming a center of excellence in computer education, empowering students to harness technology for the betterment of society.</p>
-        
-                <div class="highlights">
-                    <h2 class="abt-h2">Key Highlights</h2>
-                    <ul class="abt-ul">
-                        <li class="abt-li">State-of-the-art labs equipped with the latest technology.</li>
-                        <li class="abt-li">Regular workshops, seminars, and guest lectures from industry experts.</li>
-                        <li class="abt-li">Strong focus on practical knowledge and real-world projects.</li>
-                        <li class="abt-li">Active student clubs and coding competitions to foster innovation.</li>
-                        <li class="abt-li">Collaborations with IT companies for internships and placements.</li>
-                    </ul>
-                </div>
+    <!-- about section  -->
+    <!-- about section  -->
+    <!-- about section  -->
+
+    <div id="about" class="hidden">
+        <div class="about-section">
+            <h1 class="abt-h1">About Our BCA Department</h1>
+            <p class="intro">The BCA Department at Sacred Heart College, Madanthyar, is dedicated to nurturing young
+                minds in the field of Computer Applications. Our curriculum is designed to provide students with a
+                strong foundation in computer science, programming, and modern technologies. We aim to create
+                problem-solvers, innovators, and future leaders in the IT industry.</p>
+
+            <p class="mission">Our mission is to offer quality education and develop IT professionals with the
+                skills and knowledge to excel in an ever-evolving digital world. We encourage creativity, critical
+                thinking, and collaboration through hands-on learning and industry exposure.</p>
+
+            <p class="vision">We envision becoming a center of excellence in computer education, empowering students
+                to harness technology for the betterment of society.</p>
+
+            <div class="highlights">
+                <h2 class="abt-h2">Key Highlights</h2>
+                <ul class="abt-ul">
+                    <li class="abt-li">State-of-the-art labs equipped with the latest technology.</li>
+                    <li class="abt-li">Regular workshops, seminars, and guest lectures from industry experts.</li>
+                    <li class="abt-li">Strong focus on practical knowledge and real-world projects.</li>
+                    <li class="abt-li">Active student clubs and coding competitions to foster innovation.</li>
+                    <li class="abt-li">Collaborations with IT companies for internships and placements.</li>
+                </ul>
             </div>
         </div>
+    </div>
 
 
-        <div id="courses" class="hidden">
-            <h2>Courses</h2>
-            <p>Details about the courses offered...</p>
-        </div>
+    <div id="courses" class="hidden">
+        <h2>Courses</h2>
+        <p>Details about the courses offered...</p>
+    </div>
 
 
-        <!-- Faculty section -->
-        <!-- Faculty section -->
-        <!-- Faculty section -->
+    <!-- Faculty section -->
+    <!-- Faculty section -->
+    <!-- Faculty section -->
 
-        <div id="faculty" class="hidden">
-            <h1 id="ourfaculty" class="gradient-h1">OUR FACULTY</h1>
-            <div id="bcahead">
+    <div id="faculty" class="hidden">
+        <h1 id="ourfaculty" class="gradient-h1">OUR FACULTY</h1>
+        <div id="bcahead">
 
-                <!--Faculty Member 1 -->
-                <div class="person-card">
-                    <img src="images/jrd.jpg" alt="Person 1" class="person-image">
-                    <div class="person-name">Mr.Janardhana RAo D</div>
-                    <div class="person-info">Software Developer</div>
-                    <button id="myBtn1">View more</button>
-                    <div id="myModal" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">×</span>
-                            <h2>Staff Member Details</h2>
-                            <p>Full Name: John Doe</p>
-                            <p>Position: Senior Developer</p>
-                            <!-- Add more details here -->
-                        </div>
-                    </div>
-                </div>
-                
-                <!--Faculty Member 2 -->
-                <div class="person-card">
-                    <img src="images/rajesh.jpg" alt="Person 2" class="person-image">
-                    <div class="person-name">Mr.Rajesh Shetty</div>
-                    <div class="person-info">Graphic Designer</div>
-                    <button id="myBtn2">View more</button>
-                    <div id="myModal" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">×</span>
-                            <h2>Staff Member Details</h2>
-                            <p>Full Name: John Doe</p>
-                            <p>Position: Senior Developer</p>
-                            <!-- Add more details here -->
-                        </div>
+            <!--Faculty Member 1 -->
+            <div class="person-card">
+                <img src="images/jrd.jpg" alt="Person 1" class="person-image">
+                <div class="person-name">Mr.Janardhana RAo D</div>
+                <div class="person-info">Software Developer</div>
+                <button id="myBtn1">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
                     </div>
                 </div>
             </div>
-            <div class="faculty-container">
-                <!-- Faculty Member 3 -->
-                <div class="faculty-card">
-                    <img src="images/divya.jpg" alt="Faculty 1" class="faculty-image">
-                    <div class="faculty-name">Ms Divya</div>
-                    <div class="faculty-info">Professor of Computer Science</div>
-                    <button id="myBtn3">View more</button>
-                    <div id="myModal" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">×</span>
-                            <h2>Staff Member Details</h2>
-                            <p>Full Name: John Doe</p>
-                            <p>Position: Senior Developer</p>
-                            <!-- Add more details here -->
-                        </div>
-                    </div>
-                </div>
-        
-                <!-- Faculty Member 4 -->
-                <div class="faculty-card">
-                    <img src="images/viyola.jpg" alt="Faculty 2" class="faculty-image">
-                    <div class="faculty-name">Ms Viyola</div>
-                    <div class="faculty-info">Associate Professor of Mathematics</div>
-                    <button id="myBtn4">View more</button>
-                    <div id="myModal" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">×</span>
-                            <h2>Staff Member Details</h2>
-                            <p>Full Name: John Doe</p>
-                            <p>Position: Senior Developer</p>
-                            <!-- Add more details here -->
-                        </div>
-                    </div>
-                </div>
-        
-                <!--Faculty Member 5 -->
-                <div class="faculty-card">
-                    <img src="images/sweedle.jpg" alt="Faculty 3" class="faculty-image">
-                    <div class="faculty-name">Ms Sweedle</div>
-                    <div class="faculty-info">Lecturer in Physics</div>
-                    <button id="myBtn5">View more</button>
-                    <div id="myModal" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">×</span>
-                            <h2>Staff Member Details</h2>
-                            <p>Full Name: John Doe</p>
-                            <p>Position: Senior Developer</p>
-                            <!-- Add more details here -->
-                        </div>
-                    </div>
-                </div>
 
-                <!--Faculty Member 6 -->
-                <div class="faculty-card">
-                    <img src="images/suchi.jpg" alt="Faculty N" class="faculty-image">
-                    <div class="faculty-name">Ms Suchithra</div>
-                    <div class="faculty-info">Lecturer in Physics</div>
-                    <button id="myBtn6">View more</button>
-                    <div id="myModal" class="modal">
-                        <!-- Modal content -->
-                        <div class="modal-content">
-                            <span class="close">×</span>
-                            <h2>Staff Member Details</h2>
-                            <p>Full Name: John Doe</p>
-                            <p>Position: Senior Developer</p>
-                            <!-- Add more details here -->
-                        </div>
+            <!--Faculty Member 2 -->
+            <div class="person-card">
+                <img src="images/rajesh.jpg" alt="Person 2" class="person-image">
+                <div class="person-name">Mr.Rajesh Shetty</div>
+                <div class="person-info">Graphic Designer</div>
+                <button id="myBtn2">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
                     </div>
                 </div>
-            </div>   
-        </div>
-            
-
-
-        <!-- IT FORUM -->
-        <!-- IT FORUM -->
-        <!-- IT FORUM -->
-        
-        <div id="events" class="hidden">
-            <div class="event">
-                <div class="heading">
-                    <h1 class="it-h1" id="bcadep">BCA Department IT Forum</h1>
-                    <h4 class="it-h4" id="slogan">Empowering Tech Minds, One Step at a Time</h4>
-                </div>
-                <section class="forum-info">
-                    <h2 class="it-h2">About Our IT Forum</h2>
-                    <p>Welcome to the IT Forum of the BCA Department, where innovation meets collaboration. Our team of enthusiastic students works together to explore the world of technology through workshops, events, and collaborative projects.</p>
-                </section>
-            
-                <section class="achievements">
-                    <h2 class="it-h2">Our Achievements</h2>
-                    <div class="achievement-card fade-in">
-                        <h3 class="it-h3">Hackathon Winner 2023</h3>
-                        <p class="it-p">Our forum members participated in national and international hackathons, showcasing their skills and bagging top honors.</p>
-                    </div>
-                    <div class="achievement-card fade-in">
-                        <h3 class="it-h3">Best Project Awards</h3>
-                        <p class="it-p">Year after year, our IT Forum team secures awards for innovative and impactful projects in the tech space.</p>
-                    </div>
-                </section>
-            
-                <section class="old-batches">
-                    <h2 class="it-h2">Our Alumni</h2>
-                    <div class="batch-container">
-                        <div class="batch-card fade-in">
-                            <h3 class="it-h3">Batch 2020-2023</h3>
-                            <p>Remarkable projects like AI-driven applications, web development innovations, and more.</p>
-                        </div>
-                        <div class="batch-card fade-in">
-                            <h3 class="it-h3">Batch 2019-2022</h3>
-                            <p class="it-p">Our alumni have gone on to work at reputed companies and continue contributing to the IT field.</p>
-                        </div>
-                    </div>
-                </section>
-            
-                <section class="forum-team">
-                    <h2>Meet the IT Forum Team</h2>
-                    <div class="team-gallery">
-                        <div class="team-member fade-in">
-                            <img src="team1.jpg" alt="Team Member 1">
-                            <p class="it-p">John Doe - Team Lead</p>
-                        </div>
-                        <div class="team-member fade-in">
-                            <img src="team2.jpg" alt="Team Member 2">
-                            <p class="it-p">Jane Smith - Developer</p>
-                        </div>
-                        <!-- Add more team members as necessary -->
-                    </div>
-                </section>
             </div>
         </div>
+        <div class="faculty-container">
+            <!-- Faculty Member 3 -->
+            <div class="faculty-card">
+                <img src="images/divya.jpg" alt="Faculty 1" class="faculty-image">
+                <div class="faculty-name">Ms Divya</div>
+                <div class="faculty-info">Professor of Computer Science</div>
+                <button id="myBtn3">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
 
-        <div id="gallery" class="hidden">
-            <h2>Gallery</h2>
-            <p>Photos and memories from our department...</p>
-        </div>
+            <!-- Faculty Member 4 -->
+            <div class="faculty-card">
+                <img src="images/viyola.jpg" alt="Faculty 2" class="faculty-image">
+                <div class="faculty-name">Ms Viyola</div>
+                <div class="faculty-info">Associate Professor of Mathematics</div>
+                <button id="myBtn4">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
 
-        <div id="contact" class="hidden">
-            <h2>Contact Us</h2>
-            <p>How to get in touch...</p>
+            <!--Faculty Member 5 -->
+            <div class="faculty-card">
+                <img src="images/sweedle.jpg" alt="Faculty 3" class="faculty-image">
+                <div class="faculty-name">Ms Sweedle</div>
+                <div class="faculty-info">Lecturer in Physics</div>
+                <button id="myBtn5">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
+
+            <!--Faculty Member 6 -->
+            <div class="faculty-card">
+                <img src="images/suchi.jpg" alt="Faculty N" class="faculty-image">
+                <div class="faculty-name">Ms Suchithra</div>
+                <div class="faculty-info">Lecturer in Physics</div>
+                <button id="myBtn6">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+
+
+
+    <!-- IT FORUM -->
+    <!-- IT FORUM -->
+    <!-- IT FORUM -->
+
+    <div id="events" class="hidden">
+        <div class="event">
+            <div class="heading">
+                <h1 class="it-h1" id="bcadep">BCA Department IT Forum</h1>
+                <h4 class="it-h4" id="slogan">Empowering Tech Minds, One Step at a Time</h4>
+            </div>
+            <section class="forum-info">
+                <h2 class="it-h2">About Our IT Forum</h2>
+                <p>Welcome to the IT Forum of the BCA Department, where innovation meets collaboration. Our team of
+                    enthusiastic students works together to explore the world of technology through workshops,
+                    events, and collaborative projects.</p>
+            </section>
+
+            <section class="achievements">
+                <h2 class="it-h2">Our Achievements</h2>
+                <div class="achievement-card fade-in">
+                    <h3 class="it-h3">Hackathon Winner 2023</h3>
+                    <p class="it-p">Our forum members participated in national and international hackathons,
+                        showcasing their skills and bagging top honors.</p>
+                </div>
+                <div class="achievement-card fade-in">
+                    <h3 class="it-h3">Best Project Awards</h3>
+                    <p class="it-p">Year after year, our IT Forum team secures awards for innovative and impactful
+                        projects in the tech space.</p>
+                </div>
+            </section>
+
+            <section class="old-batches">
+                <h2 class="it-h2">Our Alumni</h2>
+                <div class="batch-container">
+                    <div class="batch-card fade-in">
+                        <h3 class="it-h3">Batch 2020-2023</h3>
+                        <p>Remarkable projects like AI-driven applications, web development innovations, and more.
+                        </p>
+                    </div>
+                    <div class="batch-card fade-in">
+                        <h3 class="it-h3">Batch 2019-2022</h3>
+                        <p class="it-p">Our alumni have gone on to work at reputed companies and continue
+                            contributing to the IT field.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="forum-team">
+                <h2>Meet the IT Forum Team</h2>
+                <div class="team-gallery">
+                    <div class="team-member fade-in">
+                        <img src="team1.jpg" alt="Team Member 1">
+                        <p class="it-p">John Doe - Team Lead</p>
+                    </div>
+                    <div class="team-member fade-in">
+                        <img src="team2.jpg" alt="Team Member 2">
+                        <p class="it-p">Jane Smith - Developer</p>
+                    </div>
+                    <!-- Add more team members as necessary -->
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <div id="gallery" class="hidden">
+        <h2>Gallery</h2>
+        <p>Photos and memories from our department...</p>
+    </div>
+
+    <div id="contact" class="hidden">
+        <h2>Contact Us</h2>
+        <p>How to get in touch...</p>
+    </div>
     </div>
 
     <!-- Footer Section -->
@@ -341,4 +299,5 @@
     <script src="javascript/about.js"></script>
     <!-- <script src="/javascript/navbar.js"></script> -->
 </body>
+
 </html>

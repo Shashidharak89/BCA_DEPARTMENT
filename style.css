@@ -11,9 +11,9 @@ body {
     flex-direction: column;
 }
 
-.hidden {
+/* .hidden {
     display: none;
-}
+} */
 
 footer {
     background-color: #333;

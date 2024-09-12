@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+<body>
+    <nav class="side">
+        <ul class="sidebar">
+            <li onclick=hideSidebar()><a href="#" class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                        viewBox="0 96 960 960" width="26">
+                        <path
+                            d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                    </svg></a></li>
+            <li><a href="../index.html"  class="sideitem">Home</a></li>
+            <li><a href="about.html" class="sideitem">About us</a></li>
+            <li><a href="faculty.html" class="sideitem">Faculty</a></li>
+            <li><a href="it-forum.html" class="sideitem">IT-Forum</a></li>
+            <li><a href="#" class="sideitem">Contact Us</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">BCA</a></li>
+            <li class="hideOnMobile"><a href="../index.html" >Home</a></li>
+            <li class="hideOnMobile"><a href="about.html" >About Us</a></li>
+            <li class="hideOnMobile"><a href="faculty.html" >Faculty</a></li>
+            <li class="hideOnMobile"><a href="it-forum.html" >IT-Forum</a></li>
+            <li class="hideOnMobile"><a href="#" >Contact Us</a></li>
+            <li class="menu-button" onclick=showSidebar()><a href="#" class="open-btn"><svg
+                        xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                    </svg></a></li>
+        </ul>
+    </nav>
+    <footer>
+        <p>© BCA Department - All Rights Reserved</p>
+    </footer>
+    <script src="../script.js"></script>
+    <script src="../javascript/navbar.js"></script>
+</body>
+</html>

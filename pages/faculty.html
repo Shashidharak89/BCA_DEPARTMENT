@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/faculty.css">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../css/navbar.css">
+</head>
+<body>
+    <!-- <body background="./images/photo1.jpg"> -->
+        <!-- Navigation Bar -->
+        <nav class="side">
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#" class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" height="26"
+                            viewBox="0 96 960 960" width="26">
+                            <path
+                                d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
+                        </svg></a></li>
+                <li><a href="../index.html"  class="sideitem">Home</a></li>
+                <li><a href="about.html" class="sideitem">About us</a></li>
+                <li><a href="#" class="sideitem">Faculty</a></li>
+                <li><a href="it-forum.html" class="sideitem">IT-Forum</a></li>
+                <li><a href="contact.html" class="sideitem">Contact Us</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">BCA</a></li>
+                <li class="hideOnMobile"><a href="../index.html" >Home</a></li>
+                <li class="hideOnMobile"><a href="about.html" >About Us</a></li>
+                <li class="hideOnMobile"><a href="#" >Faculty</a></li>
+                <li class="hideOnMobile"><a href="it-forum.html" >IT-Forum</a></li>
+                <li class="hideOnMobile"><a href="contact.html" >Contact Us</a></li>
+                <li class="menu-button" onclick=showSidebar()><a href="#" class="open-btn"><svg
+                            xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
+                            <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
+                        </svg></a></li>
+            </ul>
+        </nav>
+    <!-- Faculty section -->
+    <!-- Faculty section -->
+    <!-- Faculty section -->
+
+    <div id="faculty" class="hidden">
+        <h1 id="ourfaculty" class="gradient-h1">OUR FACULTY</h1>
+        <div id="bcahead">
+
+            <!--Faculty Member 1 -->
+            <div class="person-card">
+                <img src="../images/jrd.jpg" alt="Person 1" class="person-image">
+                <div class="person-name">Mr.Janardhana RAo D</div>
+                <div class="person-info">Software Developer</div>
+                <button id="myBtn1">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
+
+            <!--Faculty Member 2 -->
+            <div class="person-card">
+                <img src="../images/rajesh.jpg" alt="Person 2" class="person-image">
+                <div class="person-name">Mr.Rajesh Shetty</div>
+                <div class="person-info">Graphic Designer</div>
+                <button id="myBtn2">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="faculty-container">
+            <!-- Faculty Member 3 -->
+            <div class="faculty-card">
+                <img src="../images/divya.jpg" alt="Faculty 1" class="faculty-image">
+                <div class="faculty-name">Ms Divya</div>
+                <div class="faculty-info">Professor of Computer Science</div>
+                <button id="myBtn3">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Faculty Member 4 -->
+            <div class="faculty-card">
+                <img src="../images/viyola.jpg" alt="Faculty 2" class="faculty-image">
+                <div class="faculty-name">Ms Viyola</div>
+                <div class="faculty-info">Associate Professor of Mathematics</div>
+                <button id="myBtn4">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
+
+            <!--Faculty Member 5 -->
+            <div class="faculty-card">
+                <img src="../images/sweedle.jpg" alt="Faculty 3" class="faculty-image">
+                <div class="faculty-name">Ms Sweedle</div>
+                <div class="faculty-info">Lecturer in Physics</div>
+                <button id="myBtn5">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
+
+            <!--Faculty Member 6 -->
+            <div class="faculty-card">
+                <img src="../images/suchi.jpg" alt="Faculty N" class="faculty-image">
+                <div class="faculty-name">Ms Suchithra</div>
+                <div class="faculty-info">Lecturer in Physics</div>
+                <button id="myBtn6">View more</button>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <span class="close">×</span>
+                        <h2>Staff Member Details</h2>
+                        <p>Full Name: John Doe</p>
+                        <p>Position: Senior Developer</p>
+                        <!-- Add more details here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>© BCA Department - All Rights Reserved</p>
+    </footer>
+
+<script src="../javascript/faculty.js"></script>
+<script src="../script.js"></script>
+<script src="../javascript/navbar.js"></script>
+</body>
+</html>

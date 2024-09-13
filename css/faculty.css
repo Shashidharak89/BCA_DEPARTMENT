@@ -322,8 +322,8 @@
   transition: background-color 0.3s, box-shadow 0.3s; /* Add transition effect */
 }
 
-#open-popup1:hover,#open-popup2:hover,#open-popup3:hover,#open-popup4:hover,#open-popup5:hover,#open-popup6:hover {
-  background-color: rgba(2, 106, 252, 0.9) /* Change background color on hover */
+#open-popup1:hover, #open-popup2:hover, #open-popup3:hover, #open-popup4:hover, #open-popup5:hover, #open-popup6:hover {
+  background-color: rgba(2, 106, 252, 0.9); /* Change background color on hover */
   box-shadow: 10 10 20px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
   animation: glow 1s infinite; /* Add glow animation on hover */
 }
@@ -340,10 +340,13 @@
   }
 }
 
+
 #open-popup1:active,#open-popup2:active ,#open-popup3:active ,#open-popup4:active ,#open-popup5:active ,#open-popup6:active {
   transform: translateY(2px); /* Add press effect on click */
   box-shadow: 0 0 10px rgba(11, 42, 245, 0.1); /* Reduce box shadow on click */
 }
+
+
 
 @media(max-width:700px){
     .profile-container {

@@ -1,6 +1,10 @@
 
+.faculty{
+  margin:20px;
+}
 #ourfaculty{
     text-align: center;
+    margin-top: 20px;
 }
 #bcahead{
     display: flex;
@@ -68,6 +72,7 @@
     justify-content: center;
     gap: 20px;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .faculty-card {

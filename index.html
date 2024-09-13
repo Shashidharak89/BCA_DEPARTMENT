@@ -12,13 +12,27 @@
     <link rel="stylesheet" href="./css/home.css">
     <link rel="stylesheet" href="css/itforum.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/sidebar-animation.css">
     <!-- <link rel="stylesheet" href="/css/navbar.css"> -->
 </head>
 
 <body>
     <!-- Navigation Bar -->
+     <div class="new-nav">
+    <input class="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
+    <label for="menu-icon"></label>
+    <nav class="nav"> 		
+        <ul class="pt-5">
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Studio</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    </div>
     <nav class="side">
-        <ul class="sidebar">
+        
+        <!-- <ul class="sidebar">
             <li onclick=hideSidebar()><a href="#" class="close-btn"><svg xmlns="http://www.w3.org/2000/svg" height="26"
                         viewBox="0 96 960 960" width="26">
                         <path
@@ -29,7 +43,7 @@
             <li><a href="pages/faculty.html" class="sideitem">Faculty</a></li>
             <li><a href="pages/it-forum.html" class="sideitem">IT-Forum</a></li>
             <li><a href="pages/contact.html" class="sideitem">Contact Us</a></li>
-        </ul>
+        </ul> -->
         <ul>
             <li><a href="#">BCA</a></li>
             <li class="hideOnMobile"><a href="#" >Home</a></li>
@@ -37,10 +51,7 @@
             <li class="hideOnMobile"><a href="pages/faculty.html" >Faculty</a></li>
             <li class="hideOnMobile"><a href="pages/it-forum.html" >IT-Forum</a></li>
             <li class="hideOnMobile"><a href="pages/contact.html" >Contact Us</a></li>
-            <li class="menu-button" onclick=showSidebar()><a href="#" class="open-btn"><svg
-                        xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26">
-                        <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
-                    </svg></a></li>
+            
         </ul>
     </nav>
 

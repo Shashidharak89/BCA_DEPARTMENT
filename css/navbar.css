@@ -1,18 +1,18 @@
-nav{
+.side{
     background-color: white;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   }
-nav ul{
+.side ul{
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
-nav li{
+.side li{
     height: 50px;
 }
-nav a{
+.side a{
     height: 100%;
     padding: 0 30px;
     text-decoration: none;
@@ -20,13 +20,16 @@ nav a{
     align-items: center;
     color: black;
 }
-nav a:hover{
+.side a:hover{
     background-color: #f0f0f0;
 }
-nav li:first-child{
+.side li:first-child{
     margin-right: auto;
 }
-.sidebar{
+.new-nav{
+  display: none;
+}
+/* .sidebar{
     position: fixed;
     top: 0; 
     right: 0;
@@ -47,29 +50,33 @@ nav li:first-child{
 }
 .sidebar a{
     width: 100%;
-}
-.menu-button{
+} */
+/* .menu-button{
     display: none;
-}
+} */
 @media(max-width: 800px){
   .hideOnMobile{
     display: none;
   }
-  .menu-button{
-      display: block;
+  .new-nav{
+    display: block;
+    
   }
+  /* .menu-button{
+      display: block;
+  } */
 }
 @media(max-width: 400px){
-  .sidebar{
+  /* .sidebar{
     width: 100%;
-  }
+  } */
 }
 @media(min-width:800 ){
-    .sidebar{
+    /* .sidebar{
       
       display: none;
 
-    }
+    } */
   }
 
 

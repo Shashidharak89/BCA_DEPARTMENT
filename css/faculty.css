@@ -240,7 +240,7 @@
 
         /* PROFILE DESIGN */
 
-        .profile-container {
+        .profile-container,.rjshetty,.divyaprof,.viyolaser,.sweedlerod,.suchiclass {
             display: flex;
             flex-direction: row;
             align-items: center;
@@ -250,7 +250,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
           }
           
-          .profile-pic {
+          .profile-pic,.profile-pic2,.profile-pic3,.profile-pic4 ,.profile-pic5 ,.profile-pic6 {
             width: 100px;
             height: 100px;
             border-radius: 50%;
@@ -263,30 +263,65 @@
             height: 100%;
             object-fit: cover;
           }
+
+          /* 2 */
+
+          .profile-pic2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+
+          }
+          /* 3 */
+          .profile-pic3 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          /* 4 */
+          .profile-pic4 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          /* 5 */
+          .profile-pic5 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+          /* 6 */
+          .profile-pic6 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+
+
           
-          .profile-info {
+          .profile-info,.profile-info2,.profile-info3,.profile-info4,.profile-info5,.profile-info6 {
             flex: 1;
           }
           
-          .name {
+          .name,.name2,.name3,.name4,.name5,.name6 {
             font-size: 24px;
             font-weight: bold;
             margin-bottom: 10px;
           }
           
-          .designation {
+          .designation,.designation2,.designation3,.designation4,.designation5,.designation6 {
             font-size: 18px;
             color: #666;
             margin-bottom: 10px;
           }
           
-          .date-of-joining {
+          .date-of-joining,.date-of-joining2,.date-of-joining3,.date-of-joining4,.date-of-joining5,.date-of-joining6 {
             font-size: 16px;
             color: #999;
             margin-bottom: 20px;
           }
           
-          .qualifications {
+          .qualifications,.qualifications2,.qualifications3,.qualifications4,.qualifications5,.qualifications6 {
             list-style: none;
             padding: 0;
             margin: 0;
@@ -296,8 +331,70 @@
             font-size: 16px;
             margin-bottom: 10px;
           }
-          
+
+          /* 2 */
+          .qualifications2 li {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          /* 3 */
+          .qualifications3 li {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          /* 4 */
+          .qualifications4 li {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          /* 5 */
+          .qualifications5 li {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+          /* 6 */
+          .qualifications6 li {
+            font-size: 16px;
+            margin-bottom: 10px;
+          }
+
+
           .qualifications li:before {
+            content: "\2022";
+            font-size: 18px;
+            color: #666;
+            margin-right: 10px;
+          }
+/* 2 */
+          .qualifications2 li:before {
+            content: "\2022";
+            font-size: 18px;
+            color: #666;
+            margin-right: 10px;
+          }
+          /* 3 */
+          .qualifications3 li:before {
+            content: "\2022";
+            font-size: 18px;
+            color: #666;
+            margin-right: 10px;
+          }
+           /* 4 */
+           .qualifications4 li:before {
+            content: "\2022";
+            font-size: 18px;
+            color: #666;
+            margin-right: 10px;
+          }
+           /* 5 */
+           .qualifications5 li:before {
+            content: "\2022";
+            font-size: 18px;
+            color: #666;
+            margin-right: 10px;
+          }
+           /* 6 */
+           .qualifications6 li:before {
             content: "\2022";
             font-size: 18px;
             color: #666;
@@ -306,9 +403,10 @@
 
 
 
+
 /* Button Animations */
 
-#open-popup1,#open-popup2,#open-popup3,#open-popup4,#open-popup5,#open-popup6 {
+/* #open-popup1,#open-popup2,#open-popup3,#open-popup4,#open-popup5,#open-popup6 {
   background-color:rgba(237, 145, 7, 0.3);
   color: #e84b17;
   padding: 5px 10px;
@@ -320,7 +418,7 @@
   /* height: 30px; */
   cursor: pointer;
   transition: background-color 0.3s, box-shadow 0.3s; /* Add transition effect */
-}
+} */
 
 #open-popup1:hover, #open-popup2:hover, #open-popup3:hover, #open-popup4:hover, #open-popup5:hover, #open-popup6:hover {
   background-color: rgba(2, 106, 252, 0.9); /* Change background color on hover */
@@ -349,7 +447,7 @@
 
 
 @media(max-width:700px){
-    .profile-container {
+    .profile-container,.rjshetty,.divyaprof,.viyolaser,.sweedlerod,.suchiclass {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -358,10 +456,12 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
       }
-      .profile-pic {
+      .profile-pic,.profile-pic2,.profile-pic3,.profile-pic4,.profile-pic5,.profile-pic6 {
         display: flex;
         flex-direction: row;
         align-items: center;
 
       }
   }
+
+  

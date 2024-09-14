@@ -61,3 +61,102 @@ section {
         transform: translateY(0);
     }
 }
+
+
+/* it forum members */
+.h1tag {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+
+    animation: slideIn 1s ease-out forwards;
+  }
+
+.members-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 1200px;
+  }
+
+  .member-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+    animation: fadeIn 1.5s ease-in forwards;
+    transform: translateY(20px);
+  }
+
+  .member-card:hover {
+    transform: scale(1.05);
+  }
+
+  .member-photo img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  .member-info {
+    padding: 20px;
+  }
+
+  .member-info h2 {
+    color: #0073e6;
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  .member-info h3 {
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .member-info p {
+    color: #777;
+    font-size: 16px;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  /* Media query for desktop (screens wider than 768px) */
+  @media (min-width: 768px) {
+    .members-container {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  /* Media query for larger screens (optional for extra styling) */
+  @media (min-width: 1200px) {
+    .members-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .memberhead{
+    display: flex;
+    justify-content: center;
+  }

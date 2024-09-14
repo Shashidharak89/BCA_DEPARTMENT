@@ -17,8 +17,9 @@
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #021c20;
     border-radius: 8px;
+    background-color: rgba(7, 172, 255, 0.2);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px;
     max-width: 300px;

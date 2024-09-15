@@ -4,6 +4,10 @@
 #slogan{
     text-align: center;
 }
+.alpic{
+  width: 90%;
+  border-radius: 8px;
+}
 .heading{
     width: 100%;
     background-color: rgb(135, 181, 86);
@@ -21,6 +25,7 @@ section {
 .it-h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .it-p {
@@ -144,7 +149,7 @@ section {
   }
 
   /* Media query for desktop (screens wider than 768px) */
-  @media (min-width: 768px) {
+  @media (min-width: 550px) {
     .members-container {
       grid-template-columns: 1fr 1fr;
     }
@@ -160,3 +165,34 @@ section {
     display: flex;
     justify-content: center;
   }
+
+
+
+  /* OUR ALUMNI */
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.alumni-file {
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.alumni-file h2 {
+    margin-top: 0;
+}
+
+.alumni-file input[type="file"] {
+    margin-top: 20px;
+}

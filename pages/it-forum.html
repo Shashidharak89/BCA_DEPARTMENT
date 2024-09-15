@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../css/itforum.css">
     <link rel="stylesheet" href="../css/navbar.css">
     <link rel="stylesheet" href="../css/sidebar-animation.css">
+    <link rel="stylesheet" href="../css/it-forum-slider.css">
 </head>
 <body>
     <div class="new-nav">
@@ -16,10 +17,10 @@
         <nav class="nav"> 		
             <ul class="pt-5">
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="pages/about.html" style="font-size: 30px;">About Us</a></li>
-                <li><a href="pages/faculty.html" style="font-size: 30px;">Faculty</a></li>
-                <li><a href="pages/it-forum.html" style="font-size: 30px;">IT-Forum</a></li>
-                <li><a href="pages/contact.html" style="font-size: 30px;">Contact Us</a></li>
+                <li><a href="about.html" style="font-size: 30px;">About Us</a></li>
+                <li><a href="faculty.html" style="font-size: 30px;">Faculty</a></li>
+                <li><a href="it-forum.html" style="font-size: 30px;">IT-Forum</a></li>
+                <li><a href="contact.html" style="font-size: 30px;">Contact Us</a></li>
             </ul>
         </nav>
         </div>
@@ -54,17 +55,27 @@
             </section>
 
             <section class="achievements">
-                <h2 class="it-h2">Our Achievements</h2>
-                <div class="achievement-card fade-in">
-                    <h3 class="it-h3">Hackathon Winner 2023</h3>
-                    <p class="it-p">Our forum members participated in national and international hackathons,
-                        showcasing their skills and bagging top honors.</p>
+                
+                <!-- Image Slider Container -->
+                <div class="slider-wrapper">
+                    <div class="slider-container">
+                        <div class="slider">
+                            <div class="slide"><img src="../images/achivements/joshiana-1.jpg" alt="Image 1" class="slide-image"></div>
+                            <div class="slide"><img src="../images/achivements/joshiana2.jpg" alt="Image 2" class="slide-image"></div>
+                            <div class="slide"><img src="../images/achivements/joshiana3.jpg" alt="Image 3" class="slide-image"></div>
+                        </div>
+                        <button class="prev slide-button">❮</button>
+                        <button class="next slide-button">❯</button>
+                    </div>
+            
+                    <!-- Description Section -->
+                    <div class="description-container">
+                        <p class="slider-description">
+                           
+Our team proudly secured the overall runners-up position at Joshiana 13.0, the fest held on the 29th and 30th of August 2024 at St. Joseph Engineering College, Vamanjooru.</p>
+                    </div>
                 </div>
-                <div class="achievement-card fade-in">
-                    <h3 class="it-h3">Best Project Awards</h3>
-                    <p class="it-p">Year after year, our IT Forum team secures awards for innovative and impactful
-                        projects in the tech space.</p>
-                </div>
+                
             </section>
 
             <section class="old-batches">
@@ -223,5 +234,6 @@
     <script src="../script.js"></script>
     <script src="../javascript/navbar.js"></script>
     <script src="../javascript/itforum.js"></script>
+    <script src="../javascript/it-forum-slider.js"></script>
 </body>
 </html>

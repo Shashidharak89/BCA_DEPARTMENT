@@ -23,10 +23,17 @@ section {
 }
 
 .it-h2 {
-    font-size: 2rem;
+    font-size: 40px;
+    color:#252839;
     margin-bottom: 20px;
     text-align: center;
+    -webkit-text-stroke: 0.3vh #383d52;
+    position: relative;
+    left: 20;
 }
+
+
+
 
 .it-p {
     font-size: 1.2rem;
@@ -70,12 +77,36 @@ section {
 
 /* it forum members */
 .h1tag {
-    color: #333;
+    
     margin-bottom: 20px;
-    text-align: center;
+    font-size: 50px;
+    color: transparent;
+    /* text-align: center; */
 
-    animation: slideIn 1s ease-out forwards;
-  }
+}
+.h1tag{
+  
+  -webkit-text-stroke: 3px darkmagenta;
+  position: relative;
+}
+
+.h1tag::before{
+  content: "MEET OUR IT FORUM TEAM";
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  overflow: hidden;
+  color: darkmagenta;
+  border-right: 8px solid darkmagenta;
+  transition: 1s ease-in-out;
+}
+
+.h1tag:hover:before{
+  width: 100%;
+  filter: drop-shadow(0 0 25px darkmagenta);
+}
+
+
 
 .members-container {
     display: grid;

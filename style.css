@@ -18,6 +18,8 @@ body {
     display: none;
 } */
 
+
+
 footer {
     background-color: #333;
     color: white;
@@ -89,4 +91,45 @@ footer {
         transform: translateX(1);
     }
 }
+
+/* Footer design */
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .footer-section {
+    flex: 1 1 300px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-heading {
+    font-size: 18px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    border-top: 1px solid #444;
+  }
+  
 

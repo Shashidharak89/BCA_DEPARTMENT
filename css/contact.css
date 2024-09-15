@@ -81,7 +81,7 @@
 }
 /* Default h1 styles */
 .heading {
-    font-size: 3rem; /* Large font size for larger screens */
+    font-size: 28px; /* Large font size for larger screens */
     text-align: center;
     margin: 1rem 0;
     color: #333;

@@ -1,6 +1,65 @@
+.bcatitle {
+  /* width: 250px; */
+  /* height: 20px; */
+  background-color:rgba(4, 4, 58, 0.3);
+  margin: 10px;
+  color: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  /* animation: zoomIn 1.5s ease-out, bounce 2s infinite alternate; */
+}
+
+.bcatitle .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  /* animation: fadeInText 1.5s ease-in; */
+}
+
+.bcatitle .subtitle {
+  font-size: 10px;
+  margin-top: 5px;
+  color: #ffcc00;
+  /* animation: fadeInText 2s ease-in; */
+}
+.bcatitle h3{
+  text-align: center;
+}
+
+/* Animations */
+/* @keyframes zoomIn {
+  from {
+      transform: scale(0.5);
+      opacity: 0;
+  }
+  to {
+      transform: scale(1);
+      opacity: 1;
+  }
+}
+
+@keyframes bounce {
+  from {
+      transform: translateY(0);
+  }
+  to {
+      transform: translateY(-10px);
+  }
+}
+
+@keyframes fadeInText {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+} */
 .side{
-    background-color: white;
+    background-color: rgba(119, 194, 238,0.2);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    height: 90px;
   }
 .side ul{
     width: 100%;
@@ -84,57 +143,57 @@
   }
   @media(max-width: 1250px){
     .side{
-      height:60px;
+      height:91px;
     }
   }
   @media(max-width: 1225px){
     .side{
-      height:65px;
+      height:92px;
     }
   }
   @media(max-width: 1200px){
     .side{
-      height:70px;
+      height:93px;
     }
   }
   @media(max-width: 1175px){
     .side{
-      height:75px;
+      height:94px;
     }
   }
   @media(max-width: 1150px){
     .side{
-      height:80px;
+      height:95px;
     }
   }
   @media(max-width: 1125px){
     .side{
-      height:85px;
+      height:96px;
     }
   }
   @media(max-width: 1100px){
     .side{
-      height:89px;
+      height:97px;
     }
   }
   @media(max-width: 1075px){
     .side{
-      height:92.5px;
+      height:98px;
     }
   }
   @media(max-width: 1050px){
     .side{
-      height:95px;
+      height:99px;
     }
   }
   @media(max-width: 1025px){
     .side{
-      height:97.5px;
+      height:100px;
     }
   }
   @media(max-width: 1000px){
     .side{
-      height:100px;
+      height:101px;
     }
   }
   @media(max-width: 975px){

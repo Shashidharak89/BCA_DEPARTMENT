@@ -62,8 +62,9 @@
 }
 
 .slider-description {
-    font-size: 16px; /* Smaller font size for the description */
-    color: #555;
+    font-size: 20px; /* Smaller font size for the description */
+    color: #03062a;
+    font-family: monotype corsiva;
     background-color: rgba(255, 255, 255, 0.8); /* Light white background for description */
     padding: 10px;
     border-radius: 10px; /* Border radius to match the container */
@@ -117,4 +118,6 @@
         max-height: 240px;
     }
 }
+
+
 

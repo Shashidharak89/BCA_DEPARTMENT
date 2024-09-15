@@ -83,6 +83,7 @@
 .heading {
     font-size: 28px; /* Large font size for larger screens */
     text-align: center;
+    font-family: copperplgoth bd bt;
     margin: 1rem 0;
     color: #333;
 }

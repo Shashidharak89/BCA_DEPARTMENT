@@ -22,16 +22,27 @@ section {
     margin: 0 auto;
 }
 
-.it-h2 {
+.it-h4 {
     font-size: 40px;
-    color:#252839;
+    font-family: rockwell;
+    color:#031268;
     margin-bottom: 20px;
     text-align: center;
-    -webkit-text-stroke: 0.3vh #383d52;
+    -webkit-text-stroke: 0.3vh #372aee;
     position: relative;
     left: 20;
 }
 
+.it-h2 {
+  font-size: 40px;
+  font-family: book antiqua;
+  color:#fe670a;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-text-stroke: 0.3vh #ee2ac3;
+  position: relative;
+  left: 20;
+}
 
 
 
@@ -226,6 +237,11 @@ section {
 
 .alumni-file input[type="file"] {
     margin-top: 20px;
+}
+.abt-h2{
+  color: aqua;
+  -webkit-text-stroke:  #2adaee;
+  
 }
 
 

@@ -12,13 +12,15 @@
 
 .abt-h1 {
     font-size: 3rem;
-    color: #333;
+    color: #0ef406;
     margin-bottom: 20px;
+    font-family: Castellar;
+    -webkit-text-stroke: 0.1vh #2a44ee;
 }
 
 .intro,.mission,.vision {
     font-size: 1.2rem;
-    color: #555;
+    color: #0a0337;
     margin: 20px 0;
     line-height: 1.6;
 }

@@ -118,11 +118,14 @@
 
 /* Animation for H1 tag */
 .gradient-h1 {
-    background: linear-gradient(45deg, #fb770b, #275fb3);
+    /* background: linear-gradient(45deg, #0b87fb, #ff2f05); */
     -webkit-background-clip: text;
-    color: transparent;
-    font-size: 36px;
+    color: rgba(0, 128, 255,0);
+    -webkit-text-stroke:2px  #1808f8;
+    font-size: 50px;
+    font-family: candara;
     animation: gradientFade 3s infinite alternate;
+    
 }
 
 @keyframes gradientFade {

@@ -269,3 +269,19 @@ section {
     width:0;
   }
 } */
+.sdm-img{
+  padding: 10px;
+  margin-top: 20px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sdm-img img{
+  border-radius: 10px;
+  width: 750px;
+}
+.par{
+  display: block;
+  
+}

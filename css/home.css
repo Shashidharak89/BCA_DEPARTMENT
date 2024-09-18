@@ -194,6 +194,7 @@
     .principals-desk,.hod-desk{
         width: 80vw;
     }
+
 }
 @media (max-width: 450px) {
     .desk-image {
@@ -205,6 +206,9 @@
     }
     .principals-desk,.hod-desk{
         width: 75vw;
+    }
+    .sdm-img img{
+        width: 300px;
     }
 }
 @media (max-width: 425px) {
@@ -218,6 +222,10 @@
     .principals-desk,.hod-desk{
         width: 70vw;
     }
+    .sdm-img img{
+        width: 300px;
+    }
+
 }
 .desk-image{
     

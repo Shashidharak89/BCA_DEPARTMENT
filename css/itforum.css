@@ -283,5 +283,45 @@ section {
 }
 .par{
   display: block;
-  
+
 }
+@media (max-width: 800px) {
+  .sdm-img img{
+    width: 500px;
+}
+
+}
+@media (max-width: 600px) {
+  .sdm-img img{
+    width: 400px;
+}
+
+}
+@media (max-width: 425px) {
+  .sdm-img img{
+    border-radius: 10px;
+    width: 300px;
+}
+}
+@media (max-width: 795px) {
+  .h1tag{
+    font-size: 45px;
+  }
+}
+@media (max-width: 730px) {
+  .h1tag{
+    font-size: 40px;
+  }
+}
+@media (max-width: 660px) {
+  .h1tag{
+    font-size: 35px;
+  }
+}
+@media (max-width: 595px) {
+  .h1tag{
+    font-size: 30px;
+  }
+}
+
+

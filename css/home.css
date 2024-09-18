@@ -70,7 +70,7 @@
 92.7%{
     left: -900%;
 }
-97.7%{
+100%{
     left: -900%;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .principals-desk {
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
     text-align: center;
     border: 2px solid #333;
@@ -99,7 +99,7 @@
 }
 
 .desk-image {
-    width: 280px;
+    width: 180px;
     border-bottom: 2px solid #333;
     border-radius: 10px 10px 0 0;
 }
@@ -145,7 +145,7 @@
     -webkit-text-stroke: 2px black;
 }
 .hod-desk {
-    width: 60%;
+    width: 80%;
     margin: 20px auto;
     text-align: center;
     border: 2px solid #333;
@@ -184,30 +184,51 @@
 
 @media (max-width: 550px) {
     .desk-image {
-        width: 260px; /* Change the image width to 25px on small screens */
+        width: 160px; /* Change the image width to 25px on small screens */
 
     }
     #princ,#hod{
         font-size: 27px;
 
     }
-    
+    .principals-desk,.hod-desk{
+        width: 80vw;
+    }
 }
 @media (max-width: 450px) {
     .desk-image {
-        width: 245px; /* Change the image width to 25px on small screens */
+        width: 140px; /* Change the image width to 25px on small screens */
     }
     #princ,#hod{
         font-size: 25px;
 
     }
+    .principals-desk,.hod-desk{
+        width: 75vw;
+    }
 }
 @media (max-width: 425px) {
     .desk-image {
-        width: 220px; /* Change the image width to 25px on small screens */
+        width: 120px; /* Change the image width to 25px on small screens */
     }
     #princ,#hod{
         font-size: 23px;
 
     }
+    .principals-desk,.hod-desk{
+        width: 70vw;
+    }
+}
+.desk-image{
+    
+}
+.name-pic{
+    float: left;
+    padding-right: 2%;
+}
+.name{
+    font-size: smaller;
+}
+.description{
+text-align: left;
 }

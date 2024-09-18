@@ -323,5 +323,16 @@ section {
     font-size: 30px;
   }
 }
+#maam{
+  width: 100%;
 
-
+}
+.head-section{
+  display: flex;
+  justify-content: center;
+  
+}
+.maam{
+  display: flex;
+  justify-content: center;
+}
